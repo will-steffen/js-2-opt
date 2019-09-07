@@ -1,0 +1,28 @@
+body{
+    margin: 0;
+    background-color: rgb(34, 34, 34);
+}
+canvas{
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+}
+.ctrl {
+    position: absolute;
+    top: 0;
+    background-color: rgba(255, 255, 255, 0.26);
+    padding: 10px;
+    opacity: 0.05;
+    width: 250px;
+    transition: 0.4s;
+    color: white;
+    font-family: sans-serif;
+}
+.ctrl:hover{
+    opacity: 0.8;
+}
+#point-number{ 
+    width: 40%;
+}
+.ctrl button{ width: 100%; }

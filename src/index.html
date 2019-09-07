@@ -1,0 +1,23 @@
+<index>
+    <head>
+        <title>2-opt</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+    <body onload="start()">
+        <canvas id="canvas"></canvas>
+        <div class="ctrl">            
+            <div>                
+                <input id="point-number" type="number">
+                <input id="matrix" type="checkbox"> Matrix
+            </div>
+            <button onclick="generate()">Generate Points</button>
+            <button onclick="next()">Next Step</button>
+            <button onclick="solve()" id="solve-btn">Solve</button>
+            <div>Interaction: <span id="iter"></span></div>
+            <div>Distance: <span id="dist"></span></div>
+            <div>Begin: <span id="start"></span></div>
+            <div>Finish: <span id="end"></span></div>
+        </div>
+        <script src="script.js"></script>
+    </body>
+</index>
